@@ -1,0 +1,5 @@
+# to push this app to CF 
+# (first, login to the cf you want to push to. then...)
+cf push -b nodejs_buildpack web_server
+
+# The endpoint will be: webserver.apps.pcfone.io
